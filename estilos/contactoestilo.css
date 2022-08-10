@@ -1,0 +1,134 @@
+html,
+/*receto de css*/
+* {margin: 0;  padding: 0; 
+}
+/*receto de css*/
+body{
+    margin: 30px;
+    margin-top: 10px;
+    padding: 20px;
+}
+*{font-family: 'Mukta', sans-serif;}
+
+h2{font-family: 'Mukta', sans-serif;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;}
+
+/*logo tipo imagen*/
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+nav li{
+    display: inline-block;}
+
+.productos{display: flex;
+justify-content:center ;
+justify-content: space-between;
+margin-top: 50px;
+
+padding: 30px;}   
+
+/*navegador*/
+.cabecera{
+    justify-content: center;
+    display: flex;
+    background-color: black
+    
+     
+}
+ul{list-style: none;}
+nav a{color: white;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+  
+
+
+li{
+    display: flex;
+    justify-content: end;
+    display: inline-block;
+    text-decoration: none
+
+}
+/*fin de navegador*/
+
+/*botones*/
+a{text-decoration: none;
+    color:black;
+    font-family: 'Mukta', sans-serif;}
+    
+    /*parrafos*/
+    p{color: black;
+        font-family: 'Mukta', sans-serif;}
+
+        /*inicio de login*/
+.login{justify-content: end;
+    padding: 10px;
+    display: flex;
+    }
+    .login div{margin: 10px;}
+    /*fin de login*/
+
+.subtitulo{ font-family: 'Mukta', sans-serif;
+    justify-content: baseline;
+    display: flex;
+    margin-top: 40px;}
+  
+form{
+    
+    justify-content: baseline;
+    margin: 10px;
+    padding: 10px;
+    border: solid 3px #999;
+    
+
+    
+}   
+
+.nombre{
+    padding: 10px;
+   
+}
+
+.email{
+    padding: 10px;
+   
+}
+
+.telefono{
+    padding: 10px;
+  
+}
+.mensaje{
+    padding: 10px;
+   
+}
+.nombre{
+    padding: 10px;
+    
+}
+/*inicio de footer*/
+.footer {background-color: black;
+    
+}
+.footer h3 {color: white;
+margin: 10px;
+}
+.footer li{color: white;}
+
+.footer a{color: white;
+margin: 20px;
+display: flex;}
+/*fin de footer*/
+
+/*informacion*/
+.informacion{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px;¨}
